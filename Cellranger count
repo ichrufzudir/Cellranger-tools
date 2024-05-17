@@ -1,3 +1,6 @@
 #for fastq files alignment over the ref genome use this:
 ##in '/yard/fastq' we have fastq files I1, R1, and R2 which then alighed to the ref whereas hGFAPcre_lacz/ is a ref 
 cellranger count --fastqs=/yard/fastq --id 7lacz --transcriptome=/yard/Mmusculus_hGFAPcre_lacz/ 
+
+#to open archived reference downloaded from 10x site
+tar xvzf /yard/refdata-gex-GRCh38-2024-A.tar.gz
